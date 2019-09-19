@@ -44,34 +44,34 @@ Federation for Edge Devices
  **Bellow is an example for setup experiment on Topology with 5 nodes (2 hop, 4-fanout)**
  
  * On **Root node** (red node) (and the **leaf processing nodes** if the topology have more than 2 hop, except the last **leaf processing nodes** level - which is direct connect with the **streamer nodes**):
-   1. Create file "stream_list.txt" and add the **static IP** list of the first level **leaf processing nodes** with port.
+   1. Create file "stream_list.txt" and add the list  **static IP** of the first level **leaf processing nodes**.
    E.g.
    ```
-    192.168.1.30:2500
-    192.168.1.31:2500
-    192.168.1.32:2500
-    192.168.1.33:2500
+    192.168.1.30
+    192.168.1.31
+    192.168.1.32
+    192.168.1.33
    ```
    2. Create file "sub_query.txt" and add a **CONSTRUCT** query which **root node** will send to **leaf processing nodes** to get the data from lower level(s)
 
 * On the last level of **Leaf processing nodes** (blue nodes):
-  1. Create file "stream_list.txt" and add the **static IP** list of **streamer nodes** that directly connect to that **leaf processing node**. with format _ws://{ip}:port_
+  1. Create file "stream_list.txt" and add the list **static IP** of **streamer nodes** that directly connect to that **leaf processing node**. 
   
   E.g.
   ***List of streamer nodes connect to leaf processing node 192.168.1.30***
   ```
-    ws://192.168.1.34:8124
-    ws://192.168.1.35:8124
-    ws://192.168.1.36:8124
-    ws://192.168.1.37:8124
+    192.168.1.34
+    192.168.1.35
+    192.168.1.36
+    192.168.1.37
   ```
   
   ***List of streamer nodes connect to leaf processing node 192.168.1.31***
   ```
-    ws://192.168.1.38:8124
-    ws://192.168.1.39:8124
-    ws://192.168.1.40:8124
-    ws://192.168.1.41:8124
+    192.168.1.38
+    192.168.1.39
+    192.168.1.40
+    192.168.1.41
   ```
   ...etc
   
