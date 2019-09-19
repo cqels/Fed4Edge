@@ -2,11 +2,11 @@
 Federation for Edge Devices
 
 ## Contents
-* [1. Requirements]
-   * [1.1. Hardware]
-   * [1.2. Software]
-* [2. Setup]
-* [3. Run Experiment]
+* 1. Requirements
+   * 1.1. Hardware
+   * 1.2. Software
+* 2. Setup
+* 3. Run Experiment
 
 ## 1. Requirement
 ### 1.1. Hardware
