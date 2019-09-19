@@ -35,7 +35,7 @@ Federation for Edge Devices
       sudo pip install websocket_server
      ```
     - Upload file **streamer** from folder bin to devices.
-  * On **client node:
+  * On **client node**:
     - Install jdk 8.
     - Upload file **client.jar** from folder bin to device.
     
