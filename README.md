@@ -19,8 +19,8 @@ Federation for Edge Devices
   - python2.7.
   
  ## 2. Setup
- * Connect all raspberry pi devices to the network (LAN or over internet), then assign a static IP address for each devices.
- * On root node and leaf processing nodes (red node and blue nodes):
+ * Connect all raspberry pi devices to the network (LAN or over internet), then assign a **static IP address** for each devices.
+ * On **root node** and **leaf processing nodes** (red node and blue nodes):
    - Install jdk 8 (recommend open jdk 8): 
      ```
       sudo apt-get update
@@ -28,14 +28,14 @@ Federation for Edge Devices
      ```
    - Upload file **cqels.jar** from folder bin to devices.
   
- * On streamer nodes:
+ * On **streamer nodes**:
    - Install Python2.7.
    - Install python websocket:
      ```
       sudo pip install websocket_server
      ```
     - Upload file **streamer** from folder bin to devices.
-  * On client node:
+  * On **client node:
     - Install jdk 8.
     - Upload file **client.jar** from folder bin to device.
     
