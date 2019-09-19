@@ -1,9 +1,9 @@
 # Fed4Edge
 Federation for Edge Devices
 
-## Table of contents
+## Contents
 * [Requirements](#requirements)
-** [hardware](#hardware)
-** [software](#software)
+   * [hardware](#hardware)
+   * [software](#software)
 * [Setup](#setup)
 * [Run Experiment](#run-experiment)
