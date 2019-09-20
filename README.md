@@ -18,16 +18,16 @@ The engine can run on any device that is equipped with JRE 8.
  ### Prepare
 - A query to query data from **root node**.
 - For each nodes which have childs is a **leaf processing nodes**:
- - Create a text file contain the IP list of the childs of that node with its port on separate lines.
-   Format: _{ip}:{port}_
-   E.g.
-   ```
+  - Create a text file contain the IP list of the childs of that node with its port on separate lines.
+    Format: _{ip}:{port}_
+    E.g.
+    ```
       192.168.1.88:2500
-   ```
- - Create a text file contain a **CONSTRUCT** query that will query data from its child nodes, to get result in N-triples
+    ```
+  - Create a text file contain a **CONSTRUCT** query that will query data from its child nodes, to get result in N-triples
 
 - For the nodes which its child node is **streamer nodes**:
- - Create a text file contain the list of Websocket URI of **streamer nodes** on separate lines.
+  - Create a text file contain the list of Websocket URI of **streamer nodes** on separate lines.
       
  ### Usage
  ```
