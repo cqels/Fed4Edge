@@ -1,24 +1,11 @@
 # Fed4Edge
 Federation for Edge Devices
 
-## Contents
-* 1. Requirements
-   * 1.1. Hardware
-   * 1.2. Software
-* 2. Setup
-* 3. Run Experiment
+## 1. Hardware & Software Requirement
+   
+The engine can run on any device that is equipped with JRE 8.
 
-## 1. Requirement
-### 1.1. Hardware
-  - Raspbery pi 3 B+.
-  - Ethernet switch.
-
-### 1.2. Software
-  - OS: raspbian latest version.
-  - JDK 8.
-  - python2.7.
-  
- ## 2. Setup
+## 2. Setup
  * Connect all raspberry pi devices to the network (LAN or over internet), then assign a **static IP address** for each devices.
  * On **root node** and **leaf processing nodes** (red node and blue nodes):
    - Install jdk 8 (recommend open jdk 8): 
